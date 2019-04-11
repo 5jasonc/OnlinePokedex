@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Online Pok&#233;dex</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Online Pok&#233;dex</h1>
+    </header>
+
+    <div id="content">
+        <div id="info">
+            
+        </div>
+        <div id="search">
+            <p>Search for Pok&#233;mon by name or type!</p>
+            <input id="searchBar" type="text" size="17" maxlength="17" autofocus>
+
+            <div id="filters">
+                <select id="type">
+                    <option value="1">Normal</option>
+                    <option value="2">Fighting</option>
+                    <option value="3">Flying</option>
+                    <option value="4">Poison</option>
+                    <option value="5">Ground</option>
+                    <option value="6">Rock</option>
+                    <option value="7">Bug</option>
+                    <option value="8">Ghost</option>
+                    <option value="9">Steel</option>
+                    <option value="10">Fire</option>
+                    <option value="11">Water</option>
+                    <option value="12">Grass</option>
+                    <option value="13">Electric</option>
+                    <option value="14">Psychic</option>
+                    <option value="15">Ice</option>
+                    <option value="16">Dragon</option>
+                    <option value="17">Dark</option>
+                    <option value="18">Fairy</option>
+                    <option value="all" selected>All</option>
+                </select>
+                <br>
+                <select id="limit">
+                    <option value="5">5</option>
+                    <option value="10" selected>10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+                <br>
+                <button type="button" id="submit">Search</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

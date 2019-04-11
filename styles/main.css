@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid black;*/
+}
+
+header {
+    padding: 1rem;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#backButton {
+    margin-bottom: 1rem;
+}
+
+.result {
+    border: 1px solid black;
+}
+
+.result p {
+    margin-bottom: 1rem;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#searchBar {
+    margin: 1rem 0;
+}
+
+#search #limit {
+    margin: 1rem 0;
+}
